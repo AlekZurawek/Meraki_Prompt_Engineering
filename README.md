@@ -17,6 +17,6 @@ Once you have your base prompt defined, the next step is to identify the correct
 
 **Example API Call:**
 
-'''
+```
 First API call to run is as follow POST/organizations/{organizationId}/networks
-'''
+```
