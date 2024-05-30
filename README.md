@@ -6,4 +6,6 @@ The first step in creating an effective ChatGPT prompt using Meraki APIs is to d
 
 **Example Base Prompt:**
 
-```Create Meraki APIv1 script using Python. Do not exceed more than 10 calls per second. Use the Python requests library and do not use any libraries that are not standard. Run the script on a loop every 5 seconds.```
+```
+Create Meraki APIv1 script using Python. Do not exceed more than 10 calls per second. Use the Python requests library and do not use any libraries that are not standard. Run the script on a loop every 5 seconds.
+```
