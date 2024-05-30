@@ -20,3 +20,10 @@ Once you have your base prompt defined, the next step is to identify the correct
 ```
 First API call to run is as follow POST/organizations/{organizationId}/networks
 ```
+
+**Step 3: Copy & Paste the Request Parameters**
+
+The next step is to simply copy and paste the request parameters for the chosen API call identified in the previous step. You can find the necessary request parameters on the [Meraki API documentation website](https://developer.cisco.com/meraki/api-v1/).
+
+By copying the request parameters, you ensure that your API calls are properly formatted and include all required information, making your script more robust and functional.
+
