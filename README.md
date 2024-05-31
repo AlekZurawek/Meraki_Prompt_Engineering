@@ -10,7 +10,7 @@ The first step in creating an effective ChatGPT prompt using Meraki APIs is to d
 Create Meraki APIv1 script using Python. Do not exceed more than 10 calls per second. Use the Python requests library and do not use any libraries that are not standard. Run the script on a loop every 5 seconds.
 ```
 
-**___________________________________________________________________________________________________**
+**__________________________________________________________________________________**
 
 **Step 2: API Call**
 
@@ -24,8 +24,7 @@ First API call to run is as follow POST/organizations/{organizationId}/networks
 ```
 
 
-**___________________________________________________________________________________________________**
-
+**__________________________________________________________________________________**
 
 **Step 3: API Request Data In**
 
@@ -62,8 +61,7 @@ tags: array[]
 A list of tags to be applied to the network.
 ```
 
-**___________________________________________________________________________________________________**
-
+**__________________________________________________________________________________**
 
 
 **Step 4: How to obtain data for the required parameters**
@@ -79,9 +77,7 @@ Obtain the “name” parameter from network_names.csv file column 1, row 2 onwa
 For productTypes*: array variable always set it to “appliance”. Do not sent any other parameters in the payload!
 ```
 
-**___________________________________________________________________________________________________**
-
-
+**__________________________________________________________________________________**
 
 **Step 5: Response Data Out**
 
@@ -128,9 +124,7 @@ tags: array[]
   Network tags
 ```
 
-**___________________________________________________________________________________________________**
-
-
+**__________________________________________________________________________________**
 
 **Step 6: Output Instructions**
 
