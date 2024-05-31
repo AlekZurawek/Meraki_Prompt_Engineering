@@ -163,7 +163,7 @@ timeZone: string
 The timezone of the network. For a list of allowed timezones, please see the 'TZ' column in the table in this article.
 
 productTypes*: array[]  
-The product type(s) of the new network. If more than one type is included, the network will be a combined network.
+The product type(s) of the new network. If more than one type is included, the network will be a combined network. Do not sent any other parameters in the payload!
 
 tags: array[]  
 A list of tags to be applied to the network.
