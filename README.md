@@ -10,6 +10,8 @@ The first step in creating an effective ChatGPT prompt using Meraki APIs is to d
 Create Meraki APIv1 script using Python. Do not exceed more than 10 calls per second. Use the Python requests library and do not use any libraries that are not standard. Run the script on a loop every 5 seconds.
 ```
 
+
+
 **Step 2: API Call**
 
 Once you have your base prompt defined, the next step is to identify the correct Meraki API call that your script needs to execute. Visit the [Meraki API documentation](https://developer.cisco.com/meraki/api-v1/) to find the appropriate API endpoints and understand their parameters.
@@ -20,6 +22,9 @@ Once you have your base prompt defined, the next step is to identify the correct
 ```
 First API call to run is as follow POST/organizations/{organizationId}/networks
 ```
+
+
+
 
 **Step 3: API Request Data In**
 
@@ -56,6 +61,9 @@ tags: array[]
 A list of tags to be applied to the network.
 ```
 
+
+
+
 **Step 4: How to obtain data for the required parameters**
 
 Once you have identified the correct API call and copied the necessary request parameters, the next step is to gather the required data for these parameters. Knowing where to source this data is essential for the accurate execution of your API requests.
@@ -68,6 +76,9 @@ Obtain the “name” parameter from network_names.csv file column 1, row 2 onwa
 
 For productTypes*: array variable always set it to “appliance”.
 ```
+
+
+
 
 **Step 5: Response Data Out**
 
@@ -113,6 +124,9 @@ productTypes: array[]
 tags: array[]
   Network tags
 ```
+
+
+
 
 **Step 6: Output Instructions**
 
