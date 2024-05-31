@@ -127,3 +127,73 @@ new networks using the API call that already have a networkId in the network_nam
 Print an indication message that the script is running and if new networks are created print
 that in console too.
 ```
+
+**Final full prompt:**
+```
+Create Meraki APIv1 script using Python. Do not exceed more than 10 calls per second. Use the Python requests library and do not use any libraries that are not standard. Run the script on a loop every 5 seconds.
+
+First API call to run is as follow POST/organizations/{organizationId}/networks
+
+Object
+
+copyFromNetworkId: string  
+The ID of the network to copy configuration from. Other provided parameters will override the copied configuration, except type which must match this network's type exactly.
+
+name*: string  
+The name of the new network
+
+notes: string  
+Add any notes or additional information about this network here.
+
+timeZone: string  
+The timezone of the network. For a list of allowed timezones, please see the 'TZ' column in the table in this article.
+
+productTypes*: array[]  
+The product type(s) of the new network. If more than one type is included, the network will be a combined network.
+
+tags: array[]  
+A list of tags to be applied to the network.
+
+Obtain the “name” parameter from network_names.csv file column 1, row 2 onward, “network_names.csv ” file currently has the following structure: “network_names,network_id
+001-Alek Zurawek,”
+
+For productTypes*: array variable always set it to “appliance”.
+
+Object
+
+enrollmentString: string
+  Enrollment string for the network
+
+id: string
+  Network ID
+
+name: string
+  Network name
+
+notes: string
+  Notes for the network
+
+organizationId: string
+  Organization ID
+
+timeZone: string
+  Timezone of the network
+
+url: string
+  URL to the network Dashboard UI
+
+isBoundToConfigTemplate: boolean
+  If the network is bound to a config template
+
+productTypes: array[]
+  List of the product types that the network supports
+
+tags: array[]
+  Network tags
+
+Save response data “id” to corresponding “network_names” value in 2nd column called “network_id”
+row 2 onwards by editing the “network_names.csv” file do not edit any other fields. Do not create
+new networks using the API call that already have a networkId in the network_names.csv file.
+Print an indication message that the script is running and if new networks are created print
+that in console too.
+```
