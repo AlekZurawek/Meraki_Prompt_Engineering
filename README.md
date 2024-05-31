@@ -161,7 +161,7 @@ timeZone: string
 The timezone of the network. For a list of allowed timezones, please see the 'TZ' column in the table in this article.
 
 productTypes*: array[]  
-The product type(s) of the new network. If more than one type is included, the network will be a combined network. Do not sent any other parameters in the payload!
+The product type(s) of the new network. If more than one type is included, the network will be a combined network.
 
 tags: array[]  
 A list of tags to be applied to the network.
@@ -169,7 +169,7 @@ A list of tags to be applied to the network.
 Obtain the “name” parameter from network_names.csv file column 1, row 2 onward, “network_names.csv ” file currently has the following structure: “network_names,network_id
 001-Alek Zurawek,”
 
-For productTypes*: array variable always set it to “appliance”.
+For productTypes*: array variable always set it to “appliance”. Do not sent any other parameters in the payload!
 
 Object
 
