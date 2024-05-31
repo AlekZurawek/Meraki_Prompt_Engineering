@@ -74,7 +74,7 @@ Once you have identified the correct API call and copied the necessary request p
 Obtain the “name” parameter from network_names.csv file column 1, row 2 onward, “network_names.csv ” file currently has the following structure: “network_names,network_id
 001-Alek Zurawek,”
 
-For productTypes*: array variable always set it to “appliance”.
+For productTypes*: array variable always set it to “appliance”. Do not sent any other parameters in the payload!
 ```
 
 **___________________________________________________________________________________________________________**
