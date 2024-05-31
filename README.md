@@ -21,7 +21,7 @@ Once you have your base prompt defined, the next step is to identify the correct
 First API call to run is as follow POST/organizations/{organizationId}/networks
 ```
 
-**Step 3: Copy & Paste the Request Parameters**
+**Step 3: API Request Data In**
 
 The next step is to simply copy and paste the request parameters for the chosen API call identified in the previous step. You can find the necessary request parameters on the [Meraki API documentation website](https://developer.cisco.com/meraki/api-v1/).
 
@@ -65,4 +65,44 @@ Obtain the “name” parameter from network_names.csv file column 1, row 2 onwa
 001-Alek Zurawek,”
 
 For productTypes*: array variable always set it to “appliance”.
+```
+
+**Step 5: Response Data Out**
+
+The next step is to understand what the script should expect as a response from the API call. This involves copying and pasting the expected successful response schema. Knowing the response structure helps you handle the data returned by the API effectively.
+
+**Example:**
+
+```
+Object
+
+enrollmentString: string
+  Enrollment string for the network
+
+id: string
+  Network ID
+
+name: string
+  Network name
+
+notes: string
+  Notes for the network
+
+organizationId: string
+  Organization ID
+
+timeZone: string
+  Timezone of the network
+
+url: string
+  URL to the network Dashboard UI
+
+isBoundToConfigTemplate: boolean
+  If the network is bound to a config template
+
+productTypes: array[]
+  List of the product types that the network supports
+
+tags: array[]
+  Network tags
 ```
