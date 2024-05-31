@@ -209,5 +209,6 @@ row 2 onwards by editing the “network_names.csv” file do not edit any other 
 new networks using the API call that already have a networkId in the network_names.csv file.
 Print an indication message that the script is running and only display new messages if new networks
 are created print that in console too. Do not display messages for networks with name parameter that
-are already created and have a network_id value within the network_names.csv file.
+are already created and have a network_id value within the network_names.csv file. Do not print
+network creation failure console messages.
 ```
