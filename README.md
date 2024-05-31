@@ -27,3 +27,36 @@ The next step is to simply copy and paste the request parameters for the chosen 
 
 By copying the request parameters, you ensure that your API calls are properly formatted and include all required information, making your script more robust and functional.
 
+```
+### Object Parameters
+
+#### copyFromNetworkId:
+**Type:** `string`
+
+The ID of the network to copy configuration from. Other provided parameters will override the copied configuration, except `type` which must match this network's type exactly.
+
+#### name*:
+**Type:** `string`
+
+The name of the new network.
+
+#### notes:
+**Type:** `string`
+
+Add any notes or additional information about this network here.
+
+#### timeZone:
+**Type:** `string`
+
+The timezone of the network. For a list of allowed timezones, please see the 'TZ' column in the table in this [article](https://developer.cisco.com/meraki/api-v1/).
+
+#### productTypes*:
+**Type:** `array[]`
+
+The product type(s) of the new network. If more than one type is included, the network will be a combined network.
+
+#### tags:
+**Type:** `array[]`
+
+A list of tags to be applied to the network.
+```
