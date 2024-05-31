@@ -30,22 +30,21 @@ By copying the request parameters, you ensure that your API calls are properly f
 ```
 ### Schema Request: Object
 
-- **copyFromNetworkId**: `string`  
-  The ID of the network to copy configuration from. Other provided parameters will override the copied configuration, except `type` which must match this network's type exactly.
+copyFromNetworkId: string  
+The ID of the network to copy configuration from. Other provided parameters will override the copied configuration, except type which must match this network's type exactly.
 
-- **name***: `string`  
-  The name of the new network.
+name*: string  
+The name of the new network
 
-- **notes**: `string`  
-  Add any notes or additional information about this network here.
+notes: string  
+Add any notes or additional information about this network here.
 
-- **timeZone**: `string`  
-  The timezone of the network. For a list of allowed timezones, please see the 'TZ' column in the table in this [article](https://developer.cisco.com/meraki/api-v1/).
+timeZone: string  
+The timezone of the network. For a list of allowed timezones, please see the 'TZ' column in the table in this article.
 
-- **productTypes***: `array[]`  
-  The product type(s) of the new network. If more than one type is included, the network will be a combined network.
+productTypes*: array[]  
+The product type(s) of the new network. If more than one type is included, the network will be a combined network.
 
-- **tags**: `array[]`  
-  A list of tags to be applied to the network.
-
+tags: array[]  
+A list of tags to be applied to the network.
 ```
