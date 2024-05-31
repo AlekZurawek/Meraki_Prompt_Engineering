@@ -50,6 +50,13 @@ tags: array[]
 A list of tags to be applied to the network.
 ```
 
-**Step 3: How to obtain data for the required parameters**
+**Step 4: How to obtain data for the required parameters**
 
 Once you have identified the correct API call and copied the necessary request parameters, the next step is to gather the required data for these parameters. Knowing where to source this data is essential for the accurate execution of your API requests.
+
+**Example:**
+
+```
+Obtain the “name” parameter from network_names.csv file column 1, row 2 onward, “network_names.csv ” file currently has the following structure: “network_names,network_id
+001-Alek Zurawek,”
+```
