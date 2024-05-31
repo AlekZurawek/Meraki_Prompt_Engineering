@@ -27,8 +27,9 @@ The next step is to simply copy and paste the request parameters for the chosen 
 
 By copying the request parameters, you ensure that your API calls are properly formatted and include all required information, making your script more robust and functional.
 
+Source: https://developer.cisco.com/meraki/api-v1/create-organization-network/
 ```
-### Schema Request: Object
+### Object
 
 copyFromNetworkId: string  
 The ID of the network to copy configuration from. Other provided parameters will override the copied configuration, except type which must match this network's type exactly.
