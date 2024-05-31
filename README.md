@@ -49,3 +49,7 @@ The product type(s) of the new network. If more than one type is included, the n
 tags: array[]  
 A list of tags to be applied to the network.
 ```
+
+**Step 3: How to obtain data for the required parameters**
+
+Once you have identified the correct API call and copied the necessary request parameters, the next step is to gather the required data for these parameters. Knowing where to source this data is essential for the accurate execution of your API requests.
