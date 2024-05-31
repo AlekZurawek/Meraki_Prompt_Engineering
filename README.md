@@ -29,7 +29,7 @@ By copying the request parameters, you ensure that your API calls are properly f
 
 Source: https://developer.cisco.com/meraki/api-v1/create-organization-network/
 ```
-### Object
+Object
 
 copyFromNetworkId: string  
 The ID of the network to copy configuration from. Other provided parameters will override the copied configuration, except type which must match this network's type exactly.
