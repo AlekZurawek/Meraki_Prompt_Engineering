@@ -29,8 +29,10 @@ By copying the request parameters, you ensure that your API calls are properly f
 
 Source: https://developer.cisco.com/meraki/api-v1/create-organization-network/
 
-Once scroll down click request parameters and click the plus sign to expand
+Once scroll down click request parameters schema definition and click the plus sign to expand
 ![Request parameters](https://github.com/AlekZurawek/Meraki_Prompt_Engineering/blob/main/images/request_parameters.png?raw=true)
+
+**Example:**
 
 ```
 Object
@@ -70,6 +72,11 @@ For productTypes*: array variable always set it to “appliance”.
 **Step 5: Response Data Out**
 
 The next step is to understand what the script should expect as a response from the API call. This involves copying and pasting the expected successful response schema. Knowing the response structure helps you handle the data returned by the API effectively.
+
+Source: https://developer.cisco.com/meraki/api-v1/create-organization-network/
+
+Once scroll down click response parameters schema definition and click the plus sign to expand
+![Request parameters](https://github.com/AlekZurawek/Meraki_Prompt_Engineering/blob/main/images/request_parameters.png?raw=true)
 
 **Example:**
 
