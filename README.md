@@ -28,7 +28,7 @@ The next step is to simply copy and paste the request parameters for the chosen 
 By copying the request parameters, you ensure that your API calls are properly formatted and include all required information, making your script more robust and functional.
 
 Source: https://developer.cisco.com/meraki/api-v1/create-organization-network/
-!(https://github.com/AlekZurawek/Meraki_Prompt_Engineering/blob/main/images/request_parameters.png?raw=true)
+![test](https://github.com/AlekZurawek/Meraki_Prompt_Engineering/blob/main/images/request_parameters.png?raw=true)
 
 ```
 Object
